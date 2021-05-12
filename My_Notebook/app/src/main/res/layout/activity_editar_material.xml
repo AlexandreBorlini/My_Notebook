@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cl_editarMaterial"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context="com.my_notebook.Dialogos.EditarMaterial">
+
+    <LinearLayout
+        android:id="@+id/ll_botoesCor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_novoNome"
+        app:layout_constraintVertical_bias="0.036">
+
+        <ImageButton
+            android:id="@+id/imageButton2"
+            style="@android:style/Widget.DeviceDefault.Light.ImageButton"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:background="#FFFFFF"
+            android:src="@drawable/botao_com_borda"
+            tools:src="@drawable/botao_com_borda"
+            tools:srcCompat="@drawable/botao_com_borda" />
+
+        <ImageButton
+            android:id="@+id/imageButton3"
+            style="@android:style/Widget.DeviceDefault.Light.ImageButton"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:background="#BEDDEC"
+            android:src="@drawable/botao_com_borda"
+            tools:src="@drawable/botao_com_borda"
+            tools:srcCompat="@drawable/botao_com_borda" />
+
+        <ImageButton
+            android:id="@+id/imageButton4"
+            style="@android:style/Widget.DeviceDefault.Light.ImageButton"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:background="#D1E3BC"
+            android:src="@drawable/botao_com_borda"
+            tools:src="@drawable/botao_com_borda"
+            tools:srcCompat="@drawable/botao_com_borda" />
+
+        <ImageButton
+            android:id="@+id/imageButton5"
+            style="@android:style/Widget.DeviceDefault.Light.ImageButton"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:background="#FFF491"
+            android:src="@drawable/botao_com_borda"
+            tools:src="@drawable/botao_com_borda"
+            tools:srcCompat="@drawable/botao_com_borda" />
+
+        <ImageButton
+            android:id="@+id/imageButton6"
+            style="@android:style/Widget.DeviceDefault.Light.ImageButton"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:background="#F6CB8C"
+            android:src="@drawable/botao_com_borda"
+            tools:src="@drawable/botao_com_borda"
+            tools:srcCompat="@drawable/botao_com_borda" />
+
+        <ImageButton
+            android:id="@+id/imageButton7"
+            style="@android:style/Widget.DeviceDefault.Light.ImageButton"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:background="#F8BBB7"
+            android:src="@drawable/botao_com_borda"
+            tools:src="@drawable/botao_com_borda"
+            tools:srcCompat="@drawable/botao_com_borda" />
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/et_novoNome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint="New Name"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_aplicarEdicao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="15dp"
+        android:text="Edit"
+        app:backgroundTint="#323232"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ll_botoesCor"
+        app:layout_constraintVertical_bias="0.039" />
+</androidx.constraintlayout.widget.ConstraintLayout>

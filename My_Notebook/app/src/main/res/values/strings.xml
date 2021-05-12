@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">My_Notebook</string>
+    <string name="search">Search</string>
+    <string name="exportar">exportar</string>
+    <string name="adicionar">adicionar</string>
+    <string name="importar">importar</string>
+    <string name="salvar">salvar</string>
+</resources>

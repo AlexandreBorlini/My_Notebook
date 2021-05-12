@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item android:id="@+id/opt_importar" android:icon="@drawable/ic_baseline_cloud_download_24"
+        android:title="@string/importar" app:showAsAction="ifRoom" />
+
+    <item android:id="@+id/opt_exportar" android:icon="@drawable/ic_baseline_backup_24"
+        android:title="@string/exportar" app:showAsAction="ifRoom" />
+
+    <item android:id="@+id/opt_adicionar" android:icon="@drawable/add_button"
+        android:title="@string/adicionar" app:showAsAction="ifRoom" />
+
+</menu>
