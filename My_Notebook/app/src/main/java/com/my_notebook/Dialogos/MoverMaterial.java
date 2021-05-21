@@ -125,16 +125,15 @@ public class MoverMaterial extends AppCompatDialogFragment {
 
         // Se o arquivo não existir, é porque é uma página, portanto
          // testar adicionando a extensão txt
-        if(!oldFile.exists())
-            oldFile = new File(caminhoMaterial + ".txt");
+         int pagina = 0;
+         if(!oldFile.exists()) {
 
-        System.out.println(oldFile.getAbsolutePath());
-         System.out.println("Velho existe "+ oldFile.exists());
-        System.out.println(newFile.getAbsolutePath());
-         System.out.println("Novo existe " +newFile.exists());
+             oldFile = new File(caminhoMaterial + ".txt");
+             newFile = new File(
+                     newDirectory + "/" + Arquivo.nomeArquivo(botaoMaterial) + ".txt");
+         }
+
         boolean renomeio = oldFile.renameTo(newFile);
-
-         System.out.println(renomeio);
 
         if(renomeio)
             botaoMaterial.setVisibility(View.GONE);
